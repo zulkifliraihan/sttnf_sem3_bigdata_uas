@@ -24,6 +24,9 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('dashboard') }}/app-assets/vendors/css/tables/datatable/responsive.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="{{ asset('dashboard') }}/app-assets/vendors/css/extensions/sweetalert2.min.css">
     <link rel="stylesheet" type="text/css" href="{{ asset('dashboard/app-assets/vendors/css/forms/select/select2.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('dashboard') }}/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+
+
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
@@ -47,6 +50,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     @yield('custom_css')
+
 
 </head>
 <!-- END: Head-->
@@ -79,6 +83,8 @@
     <script src="{{ asset('dashboard') }}/app-assets/vendors/js/tables/datatable/responsive.bootstrap4.js"></script>
     <script src="{{ asset('dashboard') }}/app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
     <script src="{{ asset('dashboard/app-assets/vendors/js/forms/select/select2.full.min.js') }}"></script>
+    <script src="{{ asset('dashboard') }}/app-assets/vendors/js/charts/chart.min.js"></script>
+    <script src="{{ asset('dashboard') }}/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -87,7 +93,7 @@
     <!-- END: Theme JS-->
 
     <!-- BEGIN: Page JS-->
-    <script src="{{ asset('dashboard') }}/app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
+    {{-- <script src="{{ asset('dashboard') }}/app-assets/js/scripts/pages/dashboard-ecommerce.js"></script> --}}
     <script src="{{ asset('dashboard') }}/app-assets/js/scripts/extensions/ext-component-sweet-alerts.js"></script>
     <script src="{{ asset('dashboard/app-assets/js/scripts/forms/form-select2.js') }}"></script>
     <!-- END: Page JS-->
